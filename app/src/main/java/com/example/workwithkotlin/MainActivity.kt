@@ -16,8 +16,8 @@ class MainActivity : AppCompatActivity() {
         val button = findViewById<Button>(R.id.buttonResult)
         button.setOnClickListener {
             val textViewShow = findViewById<TextView>(R.id.textViewShow)
-            val callable: Callable<Int> = getDataFromCallable(editTextEnter)
-            val futureTask: FutureTask<Int> = FutureTask(callable)
+            val callable : Callable <Int> = getDataFromCallable(editTextEnter)
+            val futureTask : FutureTask <Int> = FutureTask(callable)
             Thread(futureTask).start()
             try {
                 textViewShow.text = futureTask.get().toString()
