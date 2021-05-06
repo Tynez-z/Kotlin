@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/circle_green"
+        android:icon="@drawable/circle_green"
+        android:title="@string/show_info_constraint"/>
+
+    <item
+        android:id="@+id/circle_yellow"
+        android:icon="@drawable/ircle_yellow"
+        android:title="@string/show_info_linner"/>
+
+</menu>
