@@ -12,15 +12,14 @@ class ShowInformActivity : AppCompatActivity() {
         setContentView(R.layout.activity_show_inform)
         val userEmail = intent.getStringExtra(USER_EMAIL)
         val userPassword = intent.getStringExtra(USER_PASSWORD)
-        //val text1: String = "Email: $userEmail\n" + "Password: $userPassword"
-        //textView.text = "Email: $userEmail\nPassword: $userPassword"
-
-        val bundle = Bundle()
-        bundle.putString("text", "Email: $userEmail\n" + "Password: $userPassword")
-        ConstraintFragment.getNewInstance(args = bundle)
+        val text1: String = "Email: $userEmail\n" + "Password: $userPassword"
 
         val constraintFragment = ConstraintFragment()
         val linnerFragment = LinnerFragment()
+        val bundle = Bundle()
+        bundle.putString("text", text1)
+        constraintFragment.arguments = bundle
+        linnerFragment.arguments = bundle
         makeCurrentFragment(constraintFragment)
         bottom_navigation.setOnNavigationItemSelectedListener {
             when (it.itemId) {

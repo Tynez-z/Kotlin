@@ -8,4 +8,6 @@
     <string name="show_info_constraint">Show Info Constraint</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="linner">Linner</string>
+    <string name="constraint">Constraint</string>
 </resources>
