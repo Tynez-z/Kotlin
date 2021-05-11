@@ -6,8 +6,28 @@
     <string name="sign_up">Not a member? Sign up now.</string>
     <string name="show_info_linner">Show Info Linear</string>
     <string name="show_info_constraint">Show Info Constraint</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="linner">Linner</string>
     <string name="constraint">Constraint</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="yellow">Yellow, the color of sunshine, hope, and happiness, has conflicting associations.
+        On one hand yellow stands for freshness, happiness, positivity, clarity, energy, optimism, enlightenment,
+        remembrance, intellect, honor, loyalty, and joy, but on the other, it represents cowardice and deceit.
+        A dull or dingy yellow may represent caution, sickness, and jealousy.</string>
+    <string name="red">Red, the color of blood and fire, is associated with meanings of love, passion, desire, heat,
+        longing, lust, sexuality, sensitivity, romance, joy, strength, leadership, courage, vigor, willpower, rage, anger,
+        danger, malice, wrath, stress, action, vibrance, radiance, and determination.</string>
+    <string name="orange">Orange is the color of joy and creativity. Orange promotes a sense of general wellness and
+        emotional energy that should be shared, such as compassion, passion, and warmth. Orange will help a person recover
+        from disappointments, a wounded heart, or a blow to one’s pride.</string>
+    <string name="green">The color green affects us physically and mentally in several different ways. Green is soothing,
+        relaxing, and youthful. Green is a color that helps alleviate anxiety, depression, and nervousness. Green also brings
+        with it a sense of hope, health, adventure, and renewal, as well as self-control, compassion, and harmonyThe green
+        color is often used to indicate safety in the advertising of drugs and medical products. Green is directly related
+        to nature and energy, so it is also commonly used to represent and promote ‘green’ products.</string>
+    <string name="black">Black is associated with power, fear, mystery, strength, authority, elegance, formality, death,
+        evil, and aggression, authority, rebellion, and sophistication. Black is required for all other colors to have depth
+        and variation of hue.</string>
+
 </resources>

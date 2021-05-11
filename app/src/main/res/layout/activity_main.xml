@@ -57,4 +57,16 @@
         android:textColor="@color/white"
         android:textSize="16sp" />
 
+    <Button
+        android:id="@+id/btn_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="#483D8B"
+        android:layout_marginTop="50dp"
+        android:text="Recycler"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
 </LinearLayout>

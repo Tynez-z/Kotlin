@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.workwithkotlin.R
 import kotlinx.android.synthetic.main.fragment_constraint.*
+
 class ConstraintFragment : Fragment() {
 
     override fun onCreateView(
