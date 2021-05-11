@@ -9,8 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WorkWithKotlin">
-        <activity android:name=".ShowInformActivity"></activity>
-        <activity android:name=".MainActivity"
+        <activity android:name=".recycler.RecyclerActivity"></activity>
+        <activity android:name=".ShowInformActivity" />
+        <activity
+            android:name=".MainActivity"
             android:theme="@style/Theme.Design.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

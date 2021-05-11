@@ -3,8 +3,8 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.workwithkotlin.recycler.RecyclerActivity
 import kotlinx.android.synthetic.main.activity_main.*
-
 const val USER_EMAIL: String = "user_email"
 const val USER_PASSWORD: String = "user_password"
 
@@ -22,6 +22,10 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
                 finish()
             }
+        }
+        btn_recycler.setOnClickListener {
+            val intentRecycler = Intent(this, RecyclerActivity::class.java)
+            startActivity(intentRecycler)
         }
     }
 }
